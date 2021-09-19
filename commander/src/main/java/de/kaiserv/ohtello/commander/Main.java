@@ -1,8 +1,8 @@
 package de.kaiserv.ohtello.commander;
 
 import de.kaiserv.ohtello.commander.drone.TelloController;
-import de.kaiserv.ohtello.commander.key.ReleasedHandler;
 import de.kaiserv.ohtello.commander.key.PressedHandler;
+import de.kaiserv.ohtello.commander.key.ReleasedHandler;
 import de.kaiserv.ohtello.commander.ui.StateGridPane;
 import javafx.application.Application;
 import javafx.application.Platform;
