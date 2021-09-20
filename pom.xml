@@ -32,16 +32,6 @@
                 <version>${jakarta.json.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.openjfx</groupId>
-                <artifactId>javafx-controls</artifactId>
-                <version>${javafx.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>ch.qos.logback</groupId>
-                <artifactId>logback-classic</artifactId>
-                <version>${logback.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>com.pi4j</groupId>
                 <artifactId>pi4j-device</artifactId>
                 <version>${pi4j.version}</version>
@@ -50,7 +40,11 @@
     </dependencyManagement>
 
     <dependencies>
-
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

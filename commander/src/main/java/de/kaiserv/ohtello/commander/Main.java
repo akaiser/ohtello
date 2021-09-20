@@ -36,7 +36,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) {
         primaryStage.setTitle("OhTello");
         primaryStage.setOnCloseRequest(__ -> {
-            telloController.close(); // TODO: check if this really works
+            telloController.close();
             Platform.exit();
             System.exit(0);
         });
